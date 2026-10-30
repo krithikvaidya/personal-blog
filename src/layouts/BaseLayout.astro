@@ -1,0 +1,45 @@
+---
+import { site } from '../config';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = site.description } = Astro.props;
+const pageTitle = title ? `${title} · ${site.name}` : site.title;
+const isBlog = Astro.url.pathname.startsWith('/blog');
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header container">
+      <a class="site-name" href="/">{site.name}<span aria-hidden="true">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>Home</a>
+        <a href="/blog/" aria-current={isBlog ? 'page' : undefined}>Writing</a>
+      </nav>
+    </header>
+    <main id="main-content" class="container">
+      <slot />
+    </main>
+    <footer class="site-footer container">
+      <span>© {new Date().getFullYear()} {site.name}</span>
+      <span>Built with <a href="https://astro.build/">Astro</a></span>
+    </footer>
+  </body>
+</html>
