@@ -31,6 +31,8 @@ Open <http://localhost:4321>.
 
 ## Write a post
 
+Your first article is ready in `src/content/blog/my-first-post.md`. Run `npm run dev` and open <http://localhost:4321/blog/my-first-post/> to preview it while you write. Edit the title, summary, and outline in that file. It starts as a draft; change `draft: true` to `draft: false` and update `pubDate` when you're ready to publish.
+
 Create a Markdown file in `src/content/blog/`, for example `my-first-post.md`:
 
 ```md
@@ -44,7 +46,7 @@ draft: false
 Write your post here.
 ```
 
-The post appears at `/blog/my-first-post/`. Published posts are listed newest first, with the latest three shown on the homepage. Set `draft: true` to exclude a post from all listings and generated routes. The sample `welcome.md` post can be edited or deleted.
+The post appears at `/blog/my-first-post/`. Posts are listed newest first, with the latest three shown on the homepage. Drafts are visible in the local development server, with a draft label on the article page. Set `draft: true` to exclude a post from all production listings and generated routes. The sample `welcome.md` post can be edited or deleted.
 
 ## Project structure
 
