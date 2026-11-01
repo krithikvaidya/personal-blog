@@ -1,14 +1,17 @@
 :root {
+  color-scheme: dark;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  color: #242923;
-  background: #fcfbf8;
+  color: #e7ebe7;
+  background: var(--background);
   line-height: 1.7;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  --muted: #62665f;
-  --accent: #294d40;
-  --border: #e4e4dc;
+  --background: #121714;
+  --surface: #202a24;
+  --muted: #a3afa6;
+  --accent: #9ad6b5;
+  --border: #303c34;
 }
 
 * {
@@ -86,7 +89,7 @@ main {
   top: 0.5rem;
   left: 1rem;
   padding: 0.5rem 1rem;
-  background: #fcfbf8;
+  background: var(--background);
   transform: translateY(-200%);
   z-index: 1;
 }
@@ -97,6 +100,7 @@ main {
 
 .site-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
@@ -117,6 +121,7 @@ main {
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
   font-size: 0.9rem;
 }
@@ -172,6 +177,16 @@ nav a[aria-current='page'] {
   border-top: 1px solid var(--border);
 }
 
+.writing-section + .writing-section {
+  margin-top: 2.5rem;
+}
+
+.section-description {
+  margin-bottom: 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .section-heading {
   display: flex;
   justify-content: space-between;
@@ -222,6 +237,24 @@ nav a[aria-current='page'] {
   margin-block: 0.5rem 0.75rem;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.post-list-compact li + li {
+  border-top: 0;
+}
+
+.post-list-compact .post-link {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: 1rem;
+  padding-block: 0.75rem;
+}
+
+.post-list-compact h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
 .page-intro {
@@ -281,7 +314,7 @@ nav a[aria-current='page'] {
 }
 
 .prose :not(pre) > code {
-  background: #eeeee6;
+  background: var(--surface);
   border-radius: 0.25rem;
   padding: 0.15rem 0.3rem;
 }
@@ -322,8 +355,10 @@ nav a[aria-current='page'] {
 
 @media (max-width: 480px) {
   .site-header { padding-block: 1.5rem; }
+  .site-header nav { width: 100%; gap: 1.25rem; }
   .intro { padding-block: 3rem; }
   .eyebrow { font-size: 0.7rem; letter-spacing: 0.08em; }
   .page-intro { padding-top: 2.5rem; }
   .article-header { padding-top: 2rem; }
+  .post-list-compact .post-link { grid-template-columns: 1fr; gap: 0.15rem; }
 }

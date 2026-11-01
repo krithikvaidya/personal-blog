@@ -8,6 +8,7 @@ const blog = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
+    section: z.enum(['writing', 'reflections', 'notes']).default('writing'),
     draft: z.boolean().default(false),
   }),
 });

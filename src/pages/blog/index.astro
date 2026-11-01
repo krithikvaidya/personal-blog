@@ -1,16 +1,5 @@
 ---
-import PostList from '../../components/PostList.astro';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getPosts } from '../../lib/posts';
-
-const posts = await getPosts();
+import SectionPage from '../../components/SectionPage.astro';
 ---
 
-<BaseLayout title="Writing" description="Notes, ideas, and things I’m learning along the way.">
-  <section class="page-intro" aria-labelledby="writing-heading">
-    <p class="eyebrow">The blog</p>
-    <h1 id="writing-heading">Writing</h1>
-    <p class="intro-description">Notes, ideas, and things I’m learning along the way.</p>
-  </section>
-  {posts.length ? <PostList posts={posts} /> : <p class="muted">New posts will appear here soon.</p>}
-</BaseLayout>
+<SectionPage section="writing" />

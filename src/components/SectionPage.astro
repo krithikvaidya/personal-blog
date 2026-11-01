@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getPosts } from '../lib/posts';
+import { sections, type Section } from '../lib/sections';
+import PostList from './PostList.astro';
+
+interface Props {
+  section: Section;
+}
+
+const { section } = Astro.props;
+const { title, description, empty } = sections[section];
+const posts = await getPosts(section);
+---
+
+<BaseLayout title={title} description={description} section={section}>
+  <section class="page-intro" aria-labelledby="section-heading">
+    <p class="eyebrow">The blog</p>
+    <h1 id="section-heading">{title}</h1>
+    <p class="intro-description">{description}</p>
+  </section>
+  {posts.length ? <PostList posts={posts} /> : <p class="muted">{empty}</p>}
+</BaseLayout>

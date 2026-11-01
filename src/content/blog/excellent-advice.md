@@ -1,0 +1,143 @@
+---
+title: 'Excellent advice for living'
+description: 'A compilation of Excellent advice for living, from the Founders podcast episode'
+pubDate: 2026-11-01
+section: notes
+draft: false
+---
+
+This is a highlight of excellent advice shared in [this](https://open.spotify.com/episode/5ilZL35OkcOBadelSce6KS?si=jP7Ag3rHR-GhCUDu4Mv1vA&utm_source=whatsapp&nd=1&dlsi=87c16ee83d3846f3) *Founders* podcast episode. The episode itself is a compilation of advice mentioned in the book [Excellent Advice for Living](https://www.amazon.com/dp/0593654528?lv=shuf&linkCode=sl1&linkId=ac1ac422eb7631dfe39240442cbe27a8&crid=ZKB9ZI0OFZB0&keywords=excellent+advice+for+living+kevin+kelly&sprefix=excellent+ad%2Caps%2C230&dib_tag=se&language=en_US&tag=autotelic00-20&dib=eyJ2IjoiMSJ9.vZhdjRusNUdncKoEUn1P64Af_QzzuZygN0vTs8u2xND7B4BV1rwaZ92pUeVGoKJBCWsbCOB55rEu0hTTEFg5klsg-tBaDgLjiJDZzn8EyCTT32hp1PqsKaMoSWulaGLL1knVh-bOVMmWlI6bZK4a4b2vz-f0gPABfMLjRmK9NkuEq2O7lPPPbnZzXec3LGhP31_ZTm3hBxzx6ElpFEcu1A.NGpq6yjEhI1DIPbXdUJ0MljN8Zk-jchCO0yGLFOby2U&qid=1769301451&sr=8-1&channelId=1&ref_=as_li_ss_tl&plpRedirect=mhFallback).  
+
+I've never found a similar compilation of advice that has resonated with me so strongly. If the points below resonate with you, you should check out the full podcast episode, and possibly the book too!
+
+## Advice compilation
+
+- When someone you love (or work with) is telling you something, keep asking them “Is there more?” until there isn't.
+- Always demand a deadline - so that it prevents you from making it perfect. Since you can't make it perfect, it pushes you to make it something different. Different is better!
+    - A deadline is often a creative accelerant, not a creative killer!
+- When you forgive others, they may not notice but it helps you heal.
+    - It’s a gift to yourself.
+- Collecting things only helps if you show them prominently and show them and enjoy them with others.
+    - Otherwise, it’s hoarding.
+- You can’t reason someone out of a notion they didn’t reason themselves into.
+- Practice gratitude like a daily prayer.
+- The advantage of a ridiculously ambitious goal is that it sets the bar very high, so that even if your effort falls short it may still exceed an ordinary success.
+- The best way to learn anything is to teach what you know.
+- **When you have to choose between being right and being kind, choose to be kind. No exceptions.**
+- The best way to get to a _Yes_ in a negotiation is to understand what _Yes_ truly means to the other person.
+- When you can’t decide the path to take, pick the one that produces change.
+- Find smart people who will disagree with you.
+- The rule of 3 in conversation:
+    - Ask them why 3 times - the 3rd time is the one that’s closest to the truth. This is similar to advice #1 above.
+- Pros make as many mistakes as amateurs, but learn how to recover gracefully.
+- Don’t be the best, be the only.
+- Everyone is shy, everyone is waiting for you to introduce yourself to them and take initiative.
+- It’s amazing how often a second try works.
+- You lead by letting others know what you expect of them, which may exceed what they expect of themselves.
+- Ask for advice instead of feedback to get a partner instead of a critic.
+- To make something good, just do it. To make something great, just redo it, redo it, redo it.
+- Think outside the brain.
+- Take responsibility for your mistakes, it’s powerful.
+- Obsess over your customers more than the competition, it will take you further.
+- **Separate the process of creating from improving. We can’t make and analyze at the same time.**
+    - While you invent, don’t select
+    - When you sketch, don’t reflect
+    - When you write the first draft, don’t reflect
+- Ideas are like shoots from the ground, they need care and nurturing in the form of time and patience to let them grow.
+    - Like a maternity ward, until the baby can walk on their own.
+    - New ideas need friends.
+- If you’re not falling down occassionally, you are just coasting.
+- The more you give to others, the more you get.
+- Friends are better than money. Almost anything money can do, friends can do better.
+- Before you’re old, attend as many funerals as you can. And listen.
+    - Nobody talks about the departed’s achievements.
+    - They only remember what kind of person they were.
+- Anything real begins with a fiction of what could be. Imagination is the most potent force in the universe, and you can get better at it. You can get better at it by ignoring what everyone else knows.
+- When crises strike, don’t waste them. More problems, more progress.
+- When you get invited to do something in the future, first ask yourself if you will do this tomorrow.
+- Rule of 7 in research - You can find out anything if you’re willing to go 7 levels.
+    - If the first source doesn’t know, ask them who they think will know and go to them.
+    - If you’re willing to go until the 7th, you’re almost always likely to get the answer.
+- Naivete can also be a superpower - hire for aptitude and attitude and then train for skills.
+- Don’t ruin an apology with an excuse.
+- Pay attention to incentives - they are very easy to underestimate.
+    - Power of incentives - getting the incentives right can be really powerful.
+- The thing that made you weird as a kid could make you great as an adult.
+- Life gets better as you replace transactions with relationships.
+- Outlaw the word “you” during arguments.
+- Over the long term, the future is defined by optimists who don’t ignore the problems but rather imagine how it would be like with them solved.
+- Focus on the important, the urgent is a tyrant. The important is king.
+- Tell a person while they’re alive, don’t wait for their eulogy. Write it in a letter so they can keep it.
+- Fear is fueled by a lack of imagination. The antidote to fear is not bravery, it looks more like imagination.
+- The reward for good work is usually more work.
+- Maturity - just because its not your fault doesn’t mean its not your responsibility.
+- Don’t aim to have others like you, aim to have them respect you. _(not sure if I agree with this)_
+- A multitude of bad ideas is necessary for a good idea.
+- Compliment people behind their back, it will come back to you.
+- You don’t need more time, you need more focus.
+- The foolish person does at the end what the smart person does at the beginning.
+- Everyone’s time is finite and shrinking. Try to outsource as much as possible.
+- Your passions should fit you exactly, but your purpose in life should exceed you. Work for something in life that’s much larger than yourself.
+- Show me your calendar and I’ll show you your priorities.
+- Your purpose is to discover your purpose.
+- Calm is contagious, be calm to help others.
+- Writing down one thing you’re grateful for each day is the cheapest form of therapy ever.
+- It’s much easier to change how you think by changing your behaviour, rather than it is to change your behaviour by changing how you think.
+    - Act out the change that you seek.
+- As long as you keep moving, your success will arrive far from where you started.
+- Copy your heroes shamelessly until you get them out of your system.
+- Bad things can happen fast but almost all good things happen slowly.
+- People cannot remember more than 3 points from a speech.
+- To be remarkable, read books.
+- To succeed, get other people to pay you. To become wealthy, help other people to succeed.
+- Cultivate an allergy to average.
+- Be frugal in all things except your passions.
+- Take one simple thing but take it extremely seriously - you’ll light up the sky.
+- A secret corrodes all who hold it.
+- Courtesy costs nothing.
+- Efficiency is highly overrated. Goofing off is highly underrated.
+- We remember how things end more than how they begin, so elevate the ending.
+    - Give bad news first then good news.
+- Embrace detours.
+- You’ll get 10x better results by elevating good behaviour rather than punishing bad behaviour.
+- It's important to state the _Bottom line up front_, spend as much time on the headline as much as the content.
+    - A change in headline can give 10:1 benefit in sales.
+- Storytelling is one of the highest form of communication.
+- Constantly search for overlapping areas of agreement and dwell there.
+    - Disagreements will appear to be edge cases.
+- Before speaking, ask yourself:
+    - Is it true
+    - Is it necessary
+    - Is it kind
+- To answer “what should I do now”, ask yourself “who should I become”.
+- When you trust the best in everyone, they generally treat you better.
+- Do not compare your inside to someone else’s outside.
+- Don’t bother fighting the old, just build the new.
+- Do more of what looks like work to others but looks like play to you.
+- **If you repeated what you did today for the next 365 days, would you be where you want to be next year?**
+- For best results, focus on your biggest opportunities, not your biggest problems.
+- When you truly think for yourself, your conclusions will not be predictable.
+- You can change someone’s life for the better simply by offering words of encouragement.
+- Value your choices based on if you were looking back 25 years from today.
+- To be interesting, just tell your own story with uncommon honesty.
+- You will thrive more when you evangelize what you love rather than bash what you hate.
+- Simplify, simplify, simplify, then exaggerate.
+- Pay attention to who you’re around when you feel best, be with them more often
+- Be able to see things from other’s POV is key to great design. It will unlock so many doors.
+- You can’t change your past, but you can change your story about it.
+    - By changing what you do about it.
+- Own up to your flaws.
+- 99% of things you’re worried about won’t happen.
+- The best way to advise someone is to find out what they really want to do, then advise them to do it.
+- You choose to be lucky by believing setbacks are temporary.
+- If nobody else does what you do, you won’t need a resume.
+- First, always ask for what you want.
+- Trust is earned in drops and lost in buckets.
+    - Unwavering honesty will help seal in trust.
+- An honest friend is one who wants nothing at all from you.
+- Being curious about another person’s POV is the best way to change their POV.
+- What you own eventually owns you.
+- Commit to doing no work one day in a week. It can end up being your most productive day.
+- Choose to believe the universe is conspiring behind your back to make you a success.
+- Life lessons will be presented to you in the order they are needed. Everything you need to master the lesson is within you. Once you have truly mastered the lesson, you will be presented with the next one. If you are alive, it means you still have lessons to learn.
+

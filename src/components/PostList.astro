@@ -3,9 +3,10 @@ import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   posts: CollectionEntry<'blog'>[];
+  compact?: boolean;
 }
 
-const { posts } = Astro.props;
+const { posts, compact = false } = Astro.props;
 const dateFormat = new Intl.DateTimeFormat('en', {
   year: 'numeric',
   month: 'short',
@@ -14,18 +15,27 @@ const dateFormat = new Intl.DateTimeFormat('en', {
 });
 ---
 
-<ul class="post-list">
+<ul class:list={['post-list', { 'post-list-compact': compact }]}>
   {posts.map((post) => (
     <li>
       <a class="post-link" href={`/blog/${post.id}/`}>
+        {compact && (
+          <time datetime={post.data.pubDate.toISOString()}>
+            {dateFormat.format(post.data.pubDate)}
+          </time>
+        )}
         <div class="post-heading">
           <h3>{post.data.title}</h3>
           <span aria-hidden="true">↗</span>
         </div>
-        <p>{post.data.description}</p>
-        <time datetime={post.data.pubDate.toISOString()}>
-          {dateFormat.format(post.data.pubDate)}
-        </time>
+        {!compact && (
+          <>
+            <p>{post.data.description}</p>
+            <time datetime={post.data.pubDate.toISOString()}>
+              {dateFormat.format(post.data.pubDate)}
+            </time>
+          </>
+        )}
       </a>
     </li>
   ))}

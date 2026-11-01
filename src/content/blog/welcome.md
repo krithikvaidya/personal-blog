@@ -2,6 +2,7 @@
 title: 'Why a personal blog'
 description: 'My motivations for starting a personal blog.'
 pubDate: 2026-10-31
+section: writing
 draft: false
 ---
 

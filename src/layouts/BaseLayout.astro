@@ -1,15 +1,17 @@
 ---
 import { site } from '../config';
+import { sectionIds, sections, type Section } from '../lib/sections';
 import '../styles/global.css';
 
 interface Props {
   title?: string;
   description?: string;
+  section?: Section;
 }
 
-const { title, description = site.description } = Astro.props;
+const { title, description = site.description, section } = Astro.props;
 const pageTitle = title ? `${title} · ${site.name}` : site.title;
-const isBlog = Astro.url.pathname.startsWith('/blog');
+const activeSection = section ?? sectionIds.find((id) => Astro.url.pathname.startsWith(sections[id].href));
 ---
 
 <!doctype html>
@@ -17,6 +19,7 @@ const isBlog = Astro.url.pathname.startsWith('/blog');
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#121714" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
     <meta property="og:type" content="website" />
@@ -31,7 +34,11 @@ const isBlog = Astro.url.pathname.startsWith('/blog');
       <a class="site-name" href="/">{site.name}<span aria-hidden="true">.</span></a>
       <nav aria-label="Main navigation">
         <a href="/" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>Home</a>
-        <a href="/blog/" aria-current={isBlog ? 'page' : undefined}>Writing</a>
+        {sectionIds.map((id) => (
+          <a href={sections[id].href} aria-current={activeSection === id ? 'page' : undefined}>
+            {sections[id].title}
+          </a>
+        ))}
       </nav>
     </header>
     <main id="main-content" class="container">

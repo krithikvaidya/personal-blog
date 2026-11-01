@@ -31,7 +31,15 @@ Open <http://localhost:4321>.
 
 ## Write a post
 
-Your first article is ready in `src/content/blog/my-first-post.md`. Run `npm run dev` and open <http://localhost:4321/blog/my-first-post/> to preview it while you write. Edit the title, summary, and outline in that file. It starts as a draft; change `draft: true` to `draft: false` and update `pubDate` when you're ready to publish.
+Your first article is in `src/content/blog/welcome.md`, at <http://localhost:4321/blog/welcome/>. Run `npm run dev` to preview edits as you write. Set `draft: true` while working on a new post; change it to `false` and update `pubDate` when you're ready to publish.
+
+The blog has three sections:
+
+- **Writing** (`/blog/`): essays and original ideas. Use `section: writing`.
+- **Reflections** (`/reflections/`): thoughts on books, podcasts, articles, and other content. Use `section: reflections`.
+- **Notes** (`/notes/`): concise learnings and takeaways. Use `section: notes`.
+
+All posts live in `src/content/blog/`. The `section` field decides which listing they appear in; posts without this field default to Writing. Individual article URLs stay at `/blog/<filename>/` in every section.
 
 Create a Markdown file in `src/content/blog/`, for example `my-first-post.md`:
 
@@ -40,13 +48,14 @@ Create a Markdown file in `src/content/blog/`, for example `my-first-post.md`:
 title: 'My first post'
 description: 'A short summary of the post.'
 pubDate: 2026-10-30
+section: writing
 draft: false
 ---
 
 Write your post here.
 ```
 
-The post appears at `/blog/my-first-post/`. Posts are listed newest first, with the latest three shown on the homepage. Drafts are visible in the local development server, with a draft label on the article page. Set `draft: true` to exclude a post from all production listings and generated routes. The sample `welcome.md` post can be edited or deleted.
+The post appears at `/blog/my-first-post/`. Each section lists its posts newest first. The homepage has Recent writing, Recent reflections, and Recent notes, with up to five dated links per section and a link to the full archive. Drafts are visible in the local development server, with a draft label on the article page. Set `draft: true` to exclude a post from all production listings and generated routes.
 
 ## Project structure
 

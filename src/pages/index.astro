@@ -3,8 +3,9 @@ import PostList from '../components/PostList.astro';
 import { site } from '../config';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getPosts } from '../lib/posts';
+import { sectionIds, sections } from '../lib/sections';
 
-const posts = (await getPosts()).slice(0, 3);
+const posts = await getPosts();
 ---
 
 <BaseLayout>
@@ -15,11 +16,18 @@ const posts = (await getPosts()).slice(0, 3);
     <a class="text-link" href="/blog/">Read my writing <span aria-hidden="true">→</span></a>
   </section>
 
-  <section class="writing-section" aria-labelledby="writing-heading">
-    <div class="section-heading">
-      <h2 id="writing-heading">Latest writing</h2>
-      <a class="text-link" href="/blog/">All posts <span aria-hidden="true">→</span></a>
-    </div>
-    {posts.length ? <PostList posts={posts} /> : <p class="muted">New posts will appear here soon.</p>}
-  </section>
+  {sectionIds.map((id) => {
+    const section = sections[id];
+    const latest = posts.filter((post) => post.data.section === id).slice(0, 5);
+    return (
+      <section class="writing-section" aria-labelledby={`${id}-heading`}>
+        <div class="section-heading">
+          <h2 id={`${id}-heading`}>Recent {section.title.toLowerCase()}</h2>
+          <a class="text-link" href={section.href}>All {section.title.toLowerCase()} <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="section-description">{section.description}</p>
+        {latest.length ? <PostList posts={latest} compact /> : <p class="muted">{section.empty}</p>}
+      </section>
+    );
+  })}
 </BaseLayout>
